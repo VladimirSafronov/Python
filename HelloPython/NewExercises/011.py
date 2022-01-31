@@ -8,5 +8,5 @@ def mult3(n):
         arr.append(-3 * arr[-1])
     return arr
 
-list = cube_list(n)
+list = mult3(n)
 print(list)
