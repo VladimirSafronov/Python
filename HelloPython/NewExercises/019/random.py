@@ -40,8 +40,9 @@ def get_random_number(intrval, denominator):
     else:
         get_random_number(interval, denominator)
 
-interval = (-5, 10) # ищем число в заданном интервале
+interval = (-5, 11) # ищем число в заданном интервале
 max_number = find_max(interval)
 denominator = 10 ** find_denominator(max_number)
+print(denominator)
 randon_num = get_random_number(interval, denominator)
 print(randon_num)
