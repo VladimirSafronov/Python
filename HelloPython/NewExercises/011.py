@@ -7,6 +7,3 @@ def mult3(n):
     for i in range (2, n + 1):
         arr.append(-3 * arr[-1])
     return arr
-
-list = mult3(n)
-print(list)
